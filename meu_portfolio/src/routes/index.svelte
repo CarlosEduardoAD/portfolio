@@ -119,7 +119,7 @@ function generateRandomInteger(min, max) {
     <div in:fade class="font-bold ">
         <p class="font-merri flex items-center text-white justify-center text-4xl  mt-4 2xl:text-5xl">Sobre mim</p>
         <div>
-            <p class="flex items-center justify-center font-hind text-xl font-semibold text-center mt-2 text-white 2xl:text-3xl">Sou de brasília e estou cursando atualmente o terceiro ano <br>
+            <p class="flex items-center justify-center font-hind text-xl font-semibold text-center mt-2 text-white 2xl:text-3xl">Vivo em Joinville e estou cursando atualmente o terceiro ano <br>
             do ensino médio junto com o curso técnico de desenvolvimento de sistemas, <br>
             programo desde 2021 e viso contribuir com meu código e minhas habilidades, <br>
             sempre mantendo o ambiente produtivo e descontráido claro</p>
