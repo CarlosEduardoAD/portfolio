@@ -1,7 +1,15 @@
 module.exports = {
-  content: [],
+  content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
-    extend: {},
+    fontFamily : {
+      mulish : ['Mulish', 'sans-serif'],
+      karla : ['Karla', 'sans-serif'],
+      merri : ['Merriweather', 'serif'],
+      hind : ['Hind', 'sans-serif'],
+    },
+    extend: {
+
+    },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
