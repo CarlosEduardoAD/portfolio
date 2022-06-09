@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 body{
-    @apply bg-gradient-to-b from-[#020D4C] to-[#E488FF] bg-no-repeat max-h-full
+    @apply bg-gradient-to-b from-[#020D4C] to-[#E488FF] bg-no-repeat h-[1850px] lg:h-[1200px] lg:max-w-full max-w-full
 }
