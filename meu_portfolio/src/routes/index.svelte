@@ -146,8 +146,8 @@ function generateRandomInteger(min, max) {
     </div>
 </div>
 <footer in:fade class="font-merri">
-    <p class="text-2xl flex items-center justify-center font-bold text-white mt-4 font-merri 2xl:text-4xl">Obrigado pelo seu tempo</p>
-    <p class="flex items-center justify-center text-xs font-semibold text-white whitespace-nowrap mt-20 font-hind 2xl:text-2xl">Copyright Carlos Eduardo, 2022 Todos os direitos Reservados</p>
+    <p class="text-2xl flex items-center justify-center font-bold text-white mt-4 font-merri 2xl:text-4xl lg:mt-16">Obrigado pelo seu tempo</p>
+    <p class="flex items-center justify-center text-xs font-semibold text-white whitespace-nowrap mt-20 font-hind 2xl:text-2xl lg:mt-8">Copyright Carlos Eduardo, 2022 Todos os direitos Reservados</p>
 </footer>
     </section>
     {/if}
