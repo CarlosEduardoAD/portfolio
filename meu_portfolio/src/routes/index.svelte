@@ -41,7 +41,7 @@ function generateRandomInteger(min, max) {
             <p class="text-center lg:text-5xl 2xl:text-7xl lg:break-normal text-4xl text-white font-merri font-light transition-all duration-200" in:fade>{greeting}</p>
         </div>
         <div class="flex items-center justify-center">
-        <button in:slide on:click={handleClick} class="btn 2xl:w-48 2xl:text-4xl border-none w-40 h-8 mt-[-154px] text-xl bg-gradient-to-bl from-blue-800 to-emerald-500 font-hindi font-bold text-slate-200">Mudar</button>
+        <button in:slide on:click={handleClick} class="btn 2xl:w-48 2xl:text-4xl border-none w-40 h-8 mt-[-154px] text-lg bg-gradient-to-bl from-blue-800 to-emerald-500 font-hindi font-bold text-slate-200">Mudar</button>
     </div>
     <div class='font-hind font-medium text-slate-200' in:fade>
         <p class="flex items-center justify-center text-center mt-8 text-xl xl:text-2xl">Sou Carlos Eduardo, estudante de Análise e Desenvolvimento de Sistemas.</p>
@@ -69,8 +69,8 @@ function generateRandomInteger(min, max) {
         <div class="card image-full bg-cover w-[550px] h-[250px] bg-[url(/nlw.png)] 2xl:w-[440px] lg:w-[320px] lg:mt-4 lg:mb-8 lg:ml-4 data-aos fade-up">
 
             <div class="card-body">
-                <p class="card-title font-hind text-6xl font-bold text-slate-100 text-center">NLW Carlos</p>
-                <p class="text-2xl">Um pequeno site feito durante o bootcamp da Rocketseat <br>
+                <p class="card-title font-hind text-6xl lg:text-4xl font-bold text-slate-100 text-center">NLW Carlos</p>
+                <p class="text-2xl lg:text-xl">Um pequeno site feito durante o bootcamp da Rocketseat <br>
                     <a href='https://nlw-impulse-carlos.vercel.app/' target="_blank" rel="noopener noreferrer" class="font-hind text-lg font-bold">VER PROJETO</a>
                 </p>
             </div>
@@ -79,8 +79,8 @@ function generateRandomInteger(min, max) {
         <div in:slide class="flex items-center justify-center">
         <div class="card image-full bg-cover w-[550px] bg-[url(/discord.jpg)] h-[250px] 2xl:w-[440px] lg:w-[320px] mt-8 lg:mt-4 lg:ml-4 lg:mb-8 lg:mr-4 data-aos fade-up">
             <div class="card-body ">
-                <p class="card-title font-hind text-6xl font-bold text-slate-100 text-center">Sherlock_bot</p>
-                <p class="text-2xl">Um bot gerenciador de senhas feito usando Python e Discord.py<br>
+                <p class="card-title font-hind text-6xl lg:text-4xl font-bold text-slate-100 text-center">Sherlock_bot</p>
+                <p class="text-2xl lg:text-xl">Um bot gerenciador de senhas feito usando Python e Discord.py<br>
                     <a href='https://github.com/CarlosEduardoAD/sherlock_project' target="_blank" rel="noopener noreferrer" class="font-hind text-lg font-bold">VER PROJETO</a>
                 </p>
             </div>
@@ -89,8 +89,8 @@ function generateRandomInteger(min, max) {
     <div in:slide  class="flex items-center justify-center">
         <div class="card image-full bg-cover w-[550px] bg-[url(/Flyers.png)] h-[250px] 2xl:w-[440px] lg:w-[320px] mt-8 lg:mt-4 lg:mb-8 lg:mr-4 data-aos fade-up">
             <div class="card-body">
-                <p class="card-title font-hind text-6xl font-bold text-slate-100 text-center">Flyers</p>
-                <p class="text-2xl">Um website simples feito com Vue.js 3<br>
+                <p class="card-title font-hind text-6xl lg:text-4xl font-bold text-slate-100 text-center">Flyers</p>
+                <p class="text-2xl lg:text-xl">Um website simples feito com Vue.js 3<br>
                     <a href='https://flyers.vercel.app/' target="_blank" rel="noopener noreferrer" class="font-hind text-lg font-bold">VER PROJETO</a>
                 </p>
             </div>
