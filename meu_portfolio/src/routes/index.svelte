@@ -37,15 +37,15 @@ function generateRandomInteger(min, max) {
     {#if pronto}
     <section>
 
-        <div class="flex items-center justify-center">
-            <p class="text-center lg:text-4xl 2xl:text-5xl lg:break-normal text-3xl text-white mt-24 font-merri font-light transition-all duration-200" in:fade>{greeting}</p>
+        <div class="flex items-center justify-center min-h-screen mt-[-180px]">
+            <p class="text-center lg:text-5xl 2xl:text-7xl lg:break-normal text-4xl text-white font-merri font-light transition-all duration-200" in:fade>{greeting}</p>
         </div>
         <div class="flex items-center justify-center">
-        <button in:slide on:click={handleClick} class="btn 2xl:w-48 border-none w-28 mt-8 bg-gradient-to-bl from-blue-800 to-emerald-500 font-hindi font-bold text-slate-200">Mudar</button>
+        <button in:slide on:click={handleClick} class="btn 2xl:w-48 2xl:text-4xl border-none w-40 h-8 mt-[-154px] text-xl bg-gradient-to-bl from-blue-800 to-emerald-500 font-hindi font-bold text-slate-200">Mudar</button>
     </div>
     <div class='font-hind font-medium text-slate-200' in:fade>
-        <p class="flex items-center justify-center text-center mt-8 xl:text-2xl">Sou Carlos Eduardo, estudante de Análise e Desenvolvimento de Sistemas.</p>
-        <p class="flex items-center justify-center xl:text-xl">Me chame de &nbsp;<strong>Karl</strong>&nbsp; por enquanto</p>
+        <p class="flex items-center justify-center text-center mt-8 text-xl xl:text-2xl">Sou Carlos Eduardo, estudante de Análise e Desenvolvimento de Sistemas.</p>
+        <p class="flex items-center justify-center xl:text-xl text-xl">Me chame de &nbsp;<strong>Karl</strong>&nbsp; por enquanto</p>
     </div>
     <div in:slide class="hidden 2xl:flex 2xl:items-center 2xl:justify-center mt-4">
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="900px" height="5px" xml:space="preserve">
@@ -63,36 +63,34 @@ function generateRandomInteger(min, max) {
           </svg>
     </div>
     <div >
-        <p class="flex items-center justify-center 2xl:text-4xl mt-12 mb-12 text-4xl font-hind font-bold text-white">Meus principais Projetos</p>
+        <p class="flex items-center justify-center flex-col 2xl:text-4xl mt-12 mb-12 text-5xl font-hind font-bold text-white">Meus principais Projetos</p>
         <div class="lg:flex lg:items-center lg:justify-center">
         <div in:slide class="flex items-center justify-center">
-        <div class="card image-full bg-contain w-[350px] 2xl:w-[440px] lg:w-[320px] lg:mt-4 lg:mb-8 lg:ml-4 data-aos fade-up">
-            <img class='2xl:h-[250px] h-[180px]' src="/nlw.png" alt="">
+        <div class="card image-full bg-cover w-[550px] h-[250px] bg-[url(/nlw.png)] 2xl:w-[440px] lg:w-[320px] lg:mt-4 lg:mb-8 lg:ml-4 data-aos fade-up">
+
             <div class="card-body">
-                <p class="card-title font-hind text-4xl font-bold text-slate-100 text-center">NLW Carlos</p>
-                <p class="">Um pequeno site feito durante o bootcamp da Rocketseat <br>
+                <p class="card-title font-hind text-6xl font-bold text-slate-100 text-center">NLW Carlos</p>
+                <p class="text-2xl">Um pequeno site feito durante o bootcamp da Rocketseat <br>
                     <a href='https://nlw-impulse-carlos.vercel.app/' target="_blank" rel="noopener noreferrer" class="font-hind text-lg font-bold">VER PROJETO</a>
                 </p>
             </div>
         </div>
     </div>
         <div in:slide class="flex items-center justify-center">
-        <div class="card image-full bg-contain w-[350px] 2xl:w-[440px] lg:w-[320px] mt-8 lg:mt-4 lg:ml-4 lg:mb-8 lg:mr-4 data-aos fade-up">
-            <img src="/discord.jpg" alt="">
+        <div class="card image-full bg-cover w-[550px] bg-[url(/discord.jpg)] h-[250px] 2xl:w-[440px] lg:w-[320px] mt-8 lg:mt-4 lg:ml-4 lg:mb-8 lg:mr-4 data-aos fade-up">
             <div class="card-body ">
-                <p class="card-title font-hind text-4xl font-bold text-slate-100 text-center">Sherlock_bot</p>
-                <p class="">Um bot gerenciador de senhas feito usando Python e Discord.py<br>
+                <p class="card-title font-hind text-6xl font-bold text-slate-100 text-center">Sherlock_bot</p>
+                <p class="text-2xl">Um bot gerenciador de senhas feito usando Python e Discord.py<br>
                     <a href='https://github.com/CarlosEduardoAD/sherlock_project' target="_blank" rel="noopener noreferrer" class="font-hind text-lg font-bold">VER PROJETO</a>
                 </p>
             </div>
         </div>
     </div>
     <div in:slide  class="flex items-center justify-center">
-        <div class="card image-full bg-cover w-[350px] 2xl:w-[440px] lg:w-[320px] mt-8 lg:mt-4 lg:mb-8 lg:mr-4 data-aos fade-up">
-            <img class='2xl:h-[250px] h-[180px]' src="/Flyers.png" alt="">
+        <div class="card image-full bg-cover w-[550px] bg-[url(/Flyers.png)] h-[250px] 2xl:w-[440px] lg:w-[320px] mt-8 lg:mt-4 lg:mb-8 lg:mr-4 data-aos fade-up">
             <div class="card-body">
-                <p class="card-title font-hind text-4xl font-bold text-slate-100 text-center">Flyers</p>
-                <p class="">Um website simples feito com Vue.js 3<br>
+                <p class="card-title font-hind text-6xl font-bold text-slate-100 text-center">Flyers</p>
+                <p class="text-2xl">Um website simples feito com Vue.js 3<br>
                     <a href='https://flyers.vercel.app/' target="_blank" rel="noopener noreferrer" class="font-hind text-lg font-bold">VER PROJETO</a>
                 </p>
             </div>
@@ -117,9 +115,9 @@ function generateRandomInteger(min, max) {
     </div>
     <div >
     <div in:fade class="font-bold ">
-        <p class="font-hind flex items-center text-white justify-center text-4xl  mt-4 2xl:text-5xl">Sobre mim</p>
+        <p class="font-hind flex items-center text-white justify-center text-6xl  mt-4 2xl:text-5xl">Sobre mim</p>
         <div>
-            <p class="flex items-center justify-center font-hind text-xl font-semibold text-center mt-2 text-white 2xl:text-3xl">Vivo em Joinville e estou cursando atualmente o terceiro ano <br>
+            <p class="flex items-center justify-center font-hind text-2xl font-semibold text-center mt-2 text-white 2xl:text-3xl">Vivo em Joinville e estou cursando atualmente o terceiro ano <br>
             do ensino médio junto com o curso técnico de desenvolvimento de sistemas, <br>
             programo desde 2021 e viso contribuir com meu código e minhas habilidades, <br>
             sempre mantendo o ambiente produtivo e descontráido claro</p>
