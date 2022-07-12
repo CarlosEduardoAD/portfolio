@@ -11,7 +11,7 @@ onMount(() => {
 
 let languages = ['Se acalme, esta será uma experiência rápida e agradável',
  "Don't worry, this is just a quick and enjoyable overview",
-  'Calmez-vous, ce sera une expérience rapide et agréable', 
+  'Calmez-vous, ce sera une expérience rapide et agréable',
   'Kalme, sa a pral yon eksperyans rapid ak bèl',
    "Calmati, questa sarà un'esperienza veloce e piacevole",
     "Rustig maar, dit wordt een snelle en aangename ervaring",
@@ -50,20 +50,20 @@ function generateRandomInteger(min, max) {
     <div in:slide class="hidden 2xl:flex 2xl:items-center 2xl:justify-center mt-4">
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="900px" height="5px" xml:space="preserve">
             <path  fill="#ffffff" stroke-width="3" stroke="#ffffff" d="M0 0 l1120 0"/>
-          </svg>          
+          </svg>
     </div>
     <div in:slide class="hidden 2xl:hidden lg:flex lg:items-center lg:justify-center mt-4">
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="600px" height="5px" xml:space="preserve">
             <path  fill="#ffffff" stroke-width="3" stroke="#ffffff" d="M0 0 l1120 0"/>
-          </svg>          
+          </svg>
     </div>
     <div in:slide class="2xl:hidden lg:hidden flex items-center justify-center mt-4">
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="300px" height="5px" xml:space="preserve">
             <path  fill="#ffffff" stroke-width="3" stroke="#ffffff" d="M0 0 l1120 0"/>
-          </svg>          
+          </svg>
     </div>
     <div >
-        <p class="flex items-center justify-center 2xl:text-4xl mt-12 mb-12 text-2xl font-merri font-bold text-white">Meus principais Projetos</p>
+        <p class="flex items-center justify-center 2xl:text-4xl mt-12 mb-12 text-4xl font-hind font-bold text-white">Meus principais Projetos</p>
         <div class="lg:flex lg:items-center lg:justify-center">
         <div in:slide class="flex items-center justify-center">
         <div class="card image-full bg-contain w-[350px] 2xl:w-[440px] lg:w-[320px] lg:mt-4 lg:mb-8 lg:ml-4 data-aos fade-up">
@@ -103,21 +103,21 @@ function generateRandomInteger(min, max) {
     <div in:slide class="hidden 2xl:flex 2xl:items-center 2xl:justify-center mt-4">
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="900px" height="5px" xml:space="preserve">
             <path  fill="#ffffff" stroke-width="3" stroke="#ffffff" d="M0 0 l1120 0"/>
-          </svg>          
+          </svg>
     </div>
     <div in:slide class="hidden 2xl:hidden lg:flex lg:items-center lg:justify-center mt-4">
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="600px" height="5px" xml:space="preserve">
             <path  fill="#ffffff" stroke-width="3" stroke="#ffffff" d="M0 0 l1120 0"/>
-          </svg>          
+          </svg>
     </div>
     <div in:slide class="2xl:hidden lg:hidden flex items-center justify-center mt-4">
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="300px" height="5px" xml:space="preserve">
             <path  fill="#ffffff" stroke-width="3" stroke="#ffffff" d="M0 0 l1120 0"/>
-          </svg>          
+          </svg>
     </div>
     <div >
     <div in:fade class="font-bold ">
-        <p class="font-merri flex items-center text-white justify-center text-4xl  mt-4 2xl:text-5xl">Sobre mim</p>
+        <p class="font-hind flex items-center text-white justify-center text-4xl  mt-4 2xl:text-5xl">Sobre mim</p>
         <div>
             <p class="flex items-center justify-center font-hind text-xl font-semibold text-center mt-2 text-white 2xl:text-3xl">Vivo em Joinville e estou cursando atualmente o terceiro ano <br>
             do ensino médio junto com o curso técnico de desenvolvimento de sistemas, <br>
@@ -145,8 +145,8 @@ function generateRandomInteger(min, max) {
         "><a href="https://www.linkedin.com/in/carlos-eduardo-mariano-regis-990222219/" target="_blank" rel="noopener noreferrer"><i class="devicon-linkedin-plain" style="font-size: 3rem;"></i></a></div>
     </div>
 </div>
-<footer in:fade class="font-merri">
-    <p class="text-2xl flex items-center justify-center font-bold text-white mt-4 font-merri 2xl:text-4xl lg:mt-16">Obrigado pelo seu tempo</p>
+<footer in:fade class="font-hind">
+    <p class="text-2xl flex items-center justify-center font-bold text-white mt-4 font-hind 2xl:text-4xl lg:mt-16">Obrigado pelo seu tempo</p>
     <p class="flex items-center justify-center text-xs font-semibold text-white whitespace-nowrap mt-20 font-hind 2xl:text-2xl lg:mt-8">Copyright Carlos Eduardo, 2022 Todos os direitos Reservados</p>
 </footer>
     </section>
