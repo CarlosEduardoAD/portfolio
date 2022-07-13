@@ -4,5 +4,5 @@
 
 body{
     min-width: 100vh;
-    @apply bg-gradient-to-b from-[#020D4C] to-[#E488FF] bg-no-repeat lg:max-w-full max-w-full overflow-x-hidden
+    @apply bg-gradient-to-b from-[#020D4C] to-[#bb55f6] bg-no-repeat lg:max-w-full max-w-full overflow-x-hidden
 }
