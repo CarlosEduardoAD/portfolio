@@ -33,6 +33,10 @@ function generateRandomInteger(min, max) {
 
 </script>
 
+<svelte:head>
+    <title>Portfólio</title>
+</svelte:head>
+
 <main>
     {#if pronto}
     <section>
