@@ -41,7 +41,7 @@ function generateRandomInteger(min, max) {
             <p class="text-center lg:text-5xl 2xl:text-7xl lg:break-normal text-4xl text-white font-merri font-light transition-all duration-200" in:fade>{greeting}</p>
         </div>
         <div class="flex items-center justify-center">
-        <button in:slide on:click={handleClick} class="btn 2xl:w-48 2xl:text-4xl border-none w-40 h-8 mt-[-154px] text-lg bg-gradient-to-bl from-blue-800 to-emerald-500 font-hindi font-bold text-slate-200">Mudar</button>
+        <button in:slide on:click={handleClick} class="btn 2xl:w-48 2xl:text-4xl border-none w-40 h-8 bg-none mt-[-154px] text-lg hover:bg-gradient-to-bl hover:from-blue-800 hover:to-emerald-500 hover:scale-125 transition-all duration-200 font-hindi font-bold text-white">Mudar</button>
     </div>
     <div class='font-hind font-medium text-slate-200' in:fade>
         <p class="flex items-center justify-center text-center mt-8 text-xl xl:text-2xl">Sou Carlos Eduardo, estudante de Análise e Desenvolvimento de Sistemas.</p>
@@ -113,7 +113,7 @@ function generateRandomInteger(min, max) {
             <path  fill="#ffffff" stroke-width="3" stroke="#ffffff" d="M0 0 l1120 0"/>
           </svg>
     </div>
-    <div >
+    <div class=''>
     <div in:fade class="font-bold ">
         <p class="font-hind flex items-center text-white justify-center text-6xl  mt-4 2xl:text-5xl">Sobre mim</p>
         <div>
@@ -131,6 +131,7 @@ function generateRandomInteger(min, max) {
         "><a href="https://www.linkedin.com/in/carlos-eduardo-mariano-regis-990222219/" target="_blank" rel="noopener noreferrer"><i class="devicon-linkedin-plain" style="font-size: 7rem;"></i></a></div>
     </div>
 </div>
+<div>
     <div class="hidden 2xl:hidden lg:grid lg:grid-row-2 lg:grid-flow-col lg:place-items-center ml-8 mt-8">
         <div class="flex pr-8 text-white"><a href="https://github.com/CarlosEduardoAD" target="_blank" rel="noopener noreferrer"><i class="devicon-github-original" style="font-size: 5rem"></i></a>
         <div class="flex pl-8 text-white
@@ -143,10 +144,13 @@ function generateRandomInteger(min, max) {
         "><a href="https://www.linkedin.com/in/carlos-eduardo-mariano-regis-990222219/" target="_blank" rel="noopener noreferrer"><i class="devicon-linkedin-plain" style="font-size: 3rem;"></i></a></div>
     </div>
 </div>
-<footer in:fade class="font-hind">
+</div>
+<div class='bg-[url(/arvores.png)] bg-auto h-[240px] bg-repeat-x'>
+<footer in:fade>
     <p class="text-2xl flex items-center justify-center font-bold text-white mt-4 font-hind 2xl:text-4xl lg:mt-16">Obrigado pelo seu tempo</p>
     <p class="flex items-center justify-center text-xs font-semibold text-white whitespace-nowrap mt-20 font-hind 2xl:text-2xl lg:mt-8">Copyright Carlos Eduardo, 2022 Todos os direitos Reservados</p>
 </footer>
+</div>
     </section>
     {/if}
 </main>
