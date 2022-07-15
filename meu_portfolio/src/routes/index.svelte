@@ -37,11 +37,13 @@ function generateRandomInteger(min, max) {
     <title>Portfólio</title>
 </svelte:head>
 
+
+
 <main>
     {#if pronto}
     <section>
 
-        <div class="flex items-center justify-center min-h-screen mt-[-180px]">
+        <div class="flex items-center justify-center min-h-screen mt-[-180px] scrollbar-thin scrollbar-thumb-gray-900 scrollbar-track-gray-100">
             <p class="text-center lg:text-5xl 2xl:text-7xl lg:break-normal text-4xl text-white font-merri font-light transition-all duration-200 lg:whitespace-wrap" in:fade>{greeting}</p>
         </div>
         <div class="flex items-center justify-center">
@@ -158,3 +160,4 @@ function generateRandomInteger(min, max) {
     </section>
     {/if}
 </main>
+
